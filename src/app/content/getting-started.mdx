@@ -1,0 +1,25 @@
+# Getting Started
+
+Welcome to our documentation! This page demonstrates how to add new content in your Nextra setup.
+
+## Your Setup
+
+Your Nextra configuration uses a custom content directory structure:
+
+- Content files go in `src/app/content/`
+- The routing is handled by `src/app/page.tsx`
+- MDX files are automatically available as routes
+
+## Adding New Pages
+
+To add a new page:
+
+1. Create a new `.mdx` file in `src/app/content/`
+2. The filename becomes the route (e.g., `getting-started.mdx` → `/getting-started`)
+3. For nested routes, create folders (e.g., `docs/installation.mdx` → `/docs/installation`)
+
+## Next Steps
+
+- Add more MDX files to `src/app/content/`
+- Create a `_meta.js` file to configure navigation
+- Customize your layout in `src/app/layout.tsx` 
